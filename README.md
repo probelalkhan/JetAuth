@@ -30,8 +30,10 @@ system** with:
 ---
 
 ## Demo
-
 <img src="./images/jet_auth_demo.gif" width="395"  alt="JetAuth Demo"/>
+
+### Check it on YouTube
+[![Watch the video](images/youtube_thumb.png)](https://youtu.be/e5x2BUJUD_M?si=GNDAlz9oAtqbQF2l)
 
 ## 📦 Installation
 

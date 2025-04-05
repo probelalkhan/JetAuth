@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Circular Background -->
+    <path
+        android:fillColor="#297BB1"
+        android:pathData="M50,0 A50,50 0 1,1 50,100 A50,50 0 1,1 50,0 Z" />
+
+    <!-- Inner Triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,20 L80,80 L20,80 Z" />
+
+    <!-- Rotated Element for Style -->
+    <group
+        android:name="rotationGroup"
+        android:pivotX="50"
+        android:pivotY="50"
+        android:rotation="20">
+        <path
+            android:fillColor="#1A5D88"
+            android:pathData="M50,10 L90,90 L10,90 Z" />
+    </group>
+
+</vector>

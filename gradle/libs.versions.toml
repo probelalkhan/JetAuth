@@ -1,38 +1,38 @@
 [versions]
 # Android and Kotlin Versions
-agp = "8.9.0"
-kotlin = "2.1.10"
-kotlinJvm = "2.0.21"
-kotlinSerialization = "2.1.10"
+agp = "8.11.1"
+kotlin = "2.2.0"
+kotlinJvm = "2.2.0"
+kotlinSerialization = "2.2.0"
 
 # AndroidX Core and Libraries
-coreKtx = "1.15.0"
+coreKtx = "1.16.0"
 coreSplashscreen = "1.0.1"
-appcompat = "1.7.0"
+appcompat = "1.7.1"
 
 # Compose
 activityCompose = "1.10.1"
-composeBom = "2025.03.00"
+composeBom = "2025.06.01"
 composeConstraintLayout = "1.1.1"
-composeNavigation = "2.8.9"
-composeViewModel = "2.8.7"
+composeNavigation = "2.9.1"
+composeViewModel = "2.9.1"
 material = "1.12.0"
 
 # Lifecycle and Coroutines
-lifecycleRuntimeKtx = "2.8.7"
-kotlinxCoroutinesCore = "1.7.3"
+lifecycleRuntimeKtx = "2.9.1"
+kotlinxCoroutinesCore = "1.10.2"
 
 # Hilt and Dependency Injection
-hilt = "2.52"
+hilt = "2.56.2"
 hiltComposeNavigation = "1.2.0"
-ksp = "2.1.10-1.0.31"
+ksp = "2.1.21-2.0.2"
 
 # Ktor and Networking
-ktor = "2.3.5"
+ktor = "3.2.1"
 
 # Data Storage - Jetpack DataStore and Security Crypto
-androidxDatastore = "1.1.4"
-securityCrypto = "1.1.0-alpha06"
+androidxDatastore = "1.1.7"
+securityCrypto = "1.1.0-beta01"
 
 # Testing
 junit = "4.13.2"
@@ -40,11 +40,11 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 
 # Code Quality
-ktlint = "12.2.0"
+ktlint = "13.0.0"
 
 # Protobuf
-protobuf = "0.9.4"
-uiTooling = "1.7.8"
+protobuf = "0.9.5"
+uiTooling = "1.8.3"
 
 [libraries]
 # AndroidX Core and Libraries
